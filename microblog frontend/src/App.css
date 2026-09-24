@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  background:#f4f4f4;
+  font-family:Arial,sans-serif;
+}
+
+.container{
+  width:600px;
+  margin:40px auto;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px gray;
+}
+
+h1{
+  text-align:center;
+  color:#1DA1F2;
+}
+
+textarea{
+  width:100%;
+  height:100px;
+  padding:10px;
+  font-size:16px;
+}
+
+button{
+  padding:10px 20px;
+  margin-top:10px;
+  background:#1DA1F2;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.post{
+  margin-top:20px;
+  padding:15px;
+  border:1px solid #ddd;
+  border-radius:5px;
+  background:#fafafa;
+}
+
+.post h3{
+  margin:0;
+}
+
+.post p{
+  margin:10px 0;
+}
+
+.delete{
+  background:red;
+}
